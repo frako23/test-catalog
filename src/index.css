@@ -74,6 +74,11 @@ a {
     width: 94%;
     /* height: 500px; */
   }
+  .container {
+    width: 125rem;
+    height: 100vh;
+    background-color: #a4152c;
+  }
   .model {
     /* height:250px; */
   }
