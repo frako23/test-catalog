@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Orbitron:wght@500&family=Poppins&display=swap');
+
+.fa-cart-plus{
+    background:#0652DD;
+  }
+  
+  .addtocart{
+    display:block;
+    padding:0.5em 1em 0.5em 1em;
+    border-radius:10px;
+    border:none;
+    font-size:1em;
+    position:relative;
+    background:#0652DD;
+    cursor:pointer;
+    height:2em;
+    width:10em;
+    overflow:hidden;
+    transition:transform 0.1s;
+    z-index:1;
+    margin-block: 0.5rem;
+  }
+  .addtocart:hover{
+    transform:scale(1.1);
+  }
+  .pretext{
+    color:#fff;
+    background:#0652DD;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Quicksand', sans-serif;
+  }
+  i{
+    margin-right:10px;
+  }
+  .done{
+    background:#be2edd;
+    display:flex;
+    padding:0.5em 1em 0.5em 1em;
+    border-radius:10px;
+    border:none;
+    font-size:1em;
+    position:relative;
+    cursor:pointer;
+    height:2em;
+    width:10em;
+    overflow:hidden;
+    transition:transform 0.1s;
+    z-index:1;
+    margin-block: 0.5rem;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+  .posttext{
+    background:#be2edd;
+  }
+  .fa-check{
+    background:#be2edd;
+  }
+  
+  .detail {
+    display:block;
+    padding:0.5em 1em 0.5em 1em;
+    border-radius:10px;
+    border:none;
+    font-size:1em;
+    position:relative;
+    background:#0652DD;
+    cursor:pointer;
+    height:2em;
+    width:10em;
+    overflow:hidden;
+    transition:transform 0.1s;
+    z-index:1;
+    margin-top: 0.5rem;
+    /* margin-right: 2rem; */
+  }
+
+  .navbar-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
+    /* font-family: "Poppins", sans-serif; */
+  }
+  .carousel .control-dots{
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    background: #212529;
+    color: white;
+  }
+  
+  .footer ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer h6 span{
+    font-family: 'Orbitron', sans-serif;
+    color: aqua;
+  }
+  
+  .footer ul li a {
+    text-decoration: none;
+    color: aqua;
+    
+  }
