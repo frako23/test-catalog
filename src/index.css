@@ -18,10 +18,8 @@ ul {
 a {
   text-decoration: none;
 }
-.container {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
+.carousel .slide img {
+  height: auto;
 }
 .background {
   width: 100%;
