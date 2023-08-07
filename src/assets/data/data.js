@@ -11,7 +11,7 @@ export const data = [
      "Imagen de carro": "X",
      "ML": "X",
      "IG": "X",
-     img: "../src/assets/img/Gol1998.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Gol1998.png"
     },
     {
      brakeModel: 8284,
@@ -26,7 +26,7 @@ export const data = [
      "Imagen de carro": "X",
      "ML": "X",
      "IG": "X",
-     img: "../src/assets/img/Corsa2000.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Corsa2000.png"
     },
     {
      brakeModel: 4465,
@@ -36,7 +36,7 @@ export const data = [
      position: "Delanteras",
      price: 20,
      quantity: 58,
-     img: "../src/assets/img/Hilux2008DC.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Hilux2008DC.png"
     },
     {
      brakeModel: 7639,
@@ -51,7 +51,7 @@ export const data = [
      quantity: 17,
      "Imagen de carro": "X",
      "ML": "X",
-     img: "../src/assets/img/MachitoChasisLargo2000.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/MachitoChasisLargo2000.png"
     },
     {
      brakeModel: 8335,
@@ -66,7 +66,7 @@ export const data = [
      quantity: 14,
      "Imagen de carro": "X",
      "ML": "X",
-     img: "../src/assets/img/CorollaNewSentation2008.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/CorollaNewSensation2008.png"
     },
     {
      brakeModel: 7877,
@@ -81,7 +81,7 @@ export const data = [
      "Imagen de carro": "X",
      "ML": "X",
      "IG": "X",
-     img: "../src/assets/img/4Runner2005.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/4Runner2005.png"
     },
     {
      brakeModel: 7877,
@@ -96,7 +96,7 @@ export const data = [
      "Imagen de carro": "X",
      "ML": "X",
      "IG": "X",
-     img: "../src/assets/img/FJCruiser2009.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/FJCruiser2009.png"
     },
     {
      brakeModel: 7877,
@@ -110,7 +110,7 @@ export const data = [
      quantity: 26,
      "Imagen de carro": "X",
      "ML": "X",
-     img: "../src/assets/img/Tacoma2007.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Tacoma2007.png"
     },
     {
      brakeModel: 7877,
@@ -124,7 +124,7 @@ export const data = [
      quantity: 26,
      "Imagen de carro": "X",
      "ML": "X",
-     img: "../src/assets/img/Tundra2002.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Tundra2002.png"
     },
     {
      brakeModel: 7877,
@@ -139,7 +139,7 @@ export const data = [
      "Imagen de carro": "X",
      "ML": "X",
      "IG": "X",
-     img: "../src/assets/img/Fortuner2010.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Fortuner2010.png"
     },
     {
      brakeModel: 7877,
@@ -153,7 +153,7 @@ export const data = [
      quantity: 26,
      "Imagen de carro": "X",
      "IG": "X",
-     img: "../src/assets/img/Burbuja2000.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Burbuja2000.png"
     },
     {
      brakeModel: 7877,
@@ -167,7 +167,7 @@ export const data = [
      quantity: 26,
      "Imagen de carro": "X",
      "IG": "X",
-     img: "../src/assets/img/Autana2008.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Autana2008.png"
     },
     {
      brakeModel: 7877,
@@ -183,7 +183,7 @@ export const data = [
      "Imagen de carro": "X",
      "ML": "X",
      "IG": "X",
-     img: "../src/assets/img/Hilux2007CS.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Hilux2007CS.png"
     },
     {
      brakeModel: 7877,
@@ -199,7 +199,7 @@ export const data = [
      "Imagen de carro": "X",
      "ML": "X",
      "IG": "X",
-     img: "../src/assets/img/Hilux2008DC.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Hilux2008DC.png"
     },
     {
      brakeModel: 7877,
@@ -213,7 +213,7 @@ export const data = [
      quantity: 26,
      "Imagen de carro": "X",
      "IG": "X",
-     img: "../src/assets/img/Montero2010.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Montero2010.png"
     },
     {
      brakeModel: 7261,
@@ -228,7 +228,7 @@ export const data = [
      "Imagen de carro": "X",
      "ML": "X",
      "IG": "X",
-     img: "../src/assets/img/Twingo2002.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Twingo2002.png"
     },
     {
      brakeModel: 7261,
@@ -243,7 +243,7 @@ export const data = [
      "Imagen de carro": "X",
      "ML": "X",
      "IG": "X",
-     img: "../src/assets/img/Symbol2005.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Symbol2005.png"
     },
     {
      brakeModel: 7261,
@@ -258,7 +258,7 @@ export const data = [
      "Imagen de carro": "X",
      "ML": "X",
      "IG": "X",
-     img: "../src/assets/img/Clio2002.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Clio2002.png"
     },
     {
      brakeModel: 7261,
@@ -273,7 +273,7 @@ export const data = [
      "Imagen de carro": "X",
      "ML": "X",
      "IG": "X",
-     img: "../src/assets/img/Megane2002.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Megane2002.png"
     },
     {
      brakeModel: 7417,
@@ -287,7 +287,7 @@ export const data = [
      quantity: 21,
      "Imagen de carro": "X",
      "ML": "X",
-     img: "../src/assets/img/Lancer1997.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Lancer1997.png"
     },
     {
      brakeModel: 7939,
@@ -301,7 +301,7 @@ export const data = [
      quantity: 17,
      "Imagen de carro": "X",
      "ML": "X",
-     img: "../src/assets/img/Optra2010.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Optra2010.png"
     },
     {
      brakeModel: 7704,
@@ -315,7 +315,7 @@ export const data = [
      quantity: 4,
      "Imagen de carro": "X",
      "ML": "X",
-     img: "../src/assets/img/Yaris2004.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Yaris2004.png"
     },
     {
      brakeModel: 8266,
@@ -329,7 +329,7 @@ export const data = [
      quantity: 8,
      "Imagen de carro": "X",
      "ML": "X",
-     img: "../src/assets/img/Rio2010.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Rio2010.png"
     },
     {
      brakeModel: 8385,
@@ -342,7 +342,7 @@ export const data = [
      position: "Delanteras",
      price: 10,
      quantity: 3,
-     img: "../src/assets/img/AveoLS2007.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/AveoLS2007.png"
     },
     {
      brakeModel: 7298,
@@ -355,7 +355,7 @@ export const data = [
      price: 20,
      quantity: 1,
      "Imagen de carro": "X",
-     img: "../src/assets/img/Burbuja2000.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/Burbuja2000.png"
     },
     {
      brakeModel: 7298,
@@ -368,7 +368,7 @@ export const data = [
      price: 20,
      quantity: 1,
      "Imagen de carro": "O",
-     img: "../src/assets/img/4Runner2005.png"
+     img: "https://github.com/frako23/test-catalog/blob/main/src/assets/img/4Runner2005.png"
     }
    ]
 
