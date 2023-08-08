@@ -5,6 +5,7 @@ import  Single  from "./components/single";
 import { Navbar } from "./components/navbar";
 import injectContext from "./context/AppContext";
 import { Footer } from "./components/footer";
+import { Cart } from "./components/cart";
 
 
 //create your first component
@@ -20,6 +21,7 @@ const Layout = () => {
 					<Routes>
 						<Route path="/" element={<App />} />
 						<Route path="/single/:theid" element={<Single />} />
+						<Route path="/cart" element={<Cart />} />
 						<Route path="*" element={<h1>Not found!</h1>} />
 					</Routes>
 					<Footer />

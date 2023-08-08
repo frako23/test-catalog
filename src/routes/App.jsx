@@ -1,4 +1,4 @@
-import { useState, useContext } from "react";
+import { useContext } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { Context } from "../context/AppContext";
@@ -39,6 +39,7 @@ function App() {
           {store.carModels.map((dato, index) => (
             <div className="box" key={index}>
               <p className="marvel">{dato.brand + " " + dato.model} </p>
+              <span className="badge rounded-pill bg-primary">${dato.price}</span>
               {/* <!--model--> */}
               <img src={dato.img} className="model" />
               {/* <!--details--> */}
