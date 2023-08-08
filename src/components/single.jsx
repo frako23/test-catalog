@@ -3,13 +3,13 @@ import { useContext } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { Context } from "../context/AppContext";
-import { Link } from "react-router-dom";
+
 import "../App.css";
 
 export default function Single() {
-  let { id } = useParams();
+  let { theId } = useParams();
   const { store, actions } = useContext(Context);
-  console.log(id);
+  console.log(theId);
   return (
     <div className="background">
       {/* <!--slider-------------------> */}
@@ -21,7 +21,7 @@ export default function Single() {
 
         <div className="box">
           <p className="marvel">
-            {store.carModels[id].brand + " " + store.carModels[id].model}{" "}
+            {store.carModels[theId].brand + " " + store.carModels[theId].model}{" "}
           </p>
           {/* <!--model--> */}
           <Carousel
@@ -38,35 +38,25 @@ export default function Single() {
             // onClickItem={onClickItem}
             // onClickThumb={onClickThumb}
           >
-            <img src={store.carModels[id].img} className="model" />
+            <img src={store.carModels[theId].img} className="model" />
             {/* <!--details--> */}
           </Carousel>
           <div className="details">
-            <table>
+            <table className="details-table">
               <thead>
                 <tr>
-                  <th>header1</th>
-                  <th>header2</th>
-                  <th>header3</th>
+                  <th>Modelo</th>
+                  <th>Posicion</th>
+                  <th>Tipo</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>text1.1</td>
-                  <td>text1.2</td>
-                  <td>text1.3</td>
+                  <td>{store.carModels[theId - 1].brakeModel}</td>
+                  <td>{store.carModels[theId - 1].position}</td>
+                  <td>{store.carModels[theId - 1].type}</td>
                 </tr>
-                <tr>
-                  <td>text2.1</td>
-                  <td>text2.2</td>
-                  <td>text2.3</td>
-                </tr>
-                <tr>
-                  <td>text3.1</td>
-                  <td>text3.2</td>
-                  <td>text3.3</td>
-                </tr>
-                <tr></tr>
+                
               </tbody>
             </table>
             {/* <!--character-details--> */}

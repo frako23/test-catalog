@@ -20,7 +20,7 @@ const Layout = () => {
 					<Navbar />
 					<Routes>
 						<Route path="/" element={<App />} />
-						<Route path="/single/:theid" element={<Single />} />
+						<Route path="/single/:theId" element={<Single />} />
 						<Route path="/cart" element={<Cart />} />
 						<Route path="*" element={<h1>Not found!</h1>} />
 					</Routes>
