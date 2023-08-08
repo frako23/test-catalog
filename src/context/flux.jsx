@@ -416,11 +416,15 @@ const getState = ({ getStore, getActions, setStore }) => {
         //get the store
         const store = getStore();
 
-        //we have to loop the entire demo array to look for the respective index
-        //and change its color
 
         //reset the global store
         setStore({  cart: [...store.cart, sku] });
+      },
+      removeFromCart: (model) => {
+        //get the store
+        const store = getStore();
+        //reset the global store
+        setStore({  cart: store.cart.filter((item) => item.model !== model) });
       },
     },
   };

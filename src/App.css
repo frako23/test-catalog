@@ -40,7 +40,7 @@
     margin-right:10px;
   }
   .done{
-    background:#be2edd;
+    background:#0db654;
     display:flex;
     padding:0.5em 1em 0.5em 1em;
     border-radius:10px;
@@ -59,10 +59,10 @@
     justify-content: center;
   }
   .posttext{
-    background:#be2edd;
+    background:#0db654;
   }
   .fa-check{
-    background:#be2edd;
+    background:#0db654;
   }
   
   .detail {
@@ -127,4 +127,16 @@
   .btns {
     display: flex;
     justify-content: center;
+  }
+
+  .cart {
+    margin-inline: 1rem;
+  }
+
+  table {
+    text-align: center;
+  }
+
+  .cart h2 {
+    text-align: center;
   }
