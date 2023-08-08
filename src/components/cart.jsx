@@ -51,7 +51,7 @@ console.log(store.cart);
         <tfoot>
           <tr>
             <td colSpan={2}><span className="fw-bold">Total</span></td>
-            <td>${store.cart.reduce((acc, currentValue) =>  acc + currentValue.price,0)}</td>
+            <td><span className="fw-bold">${store.cart.reduce((acc, currentValue) =>  acc + currentValue.price,0)}</span></td>
           </tr>
         </tfoot>
         <tbody>
