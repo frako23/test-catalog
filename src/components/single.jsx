@@ -38,7 +38,9 @@ export default function Single() {
             // onClickItem={onClickItem}
             // onClickThumb={onClickThumb}
           >
-            <img src={store.carModels[theId].img} className="model" />
+            {store.carModels[theId].brakeImgs.map((img,index) => (<div key={index}>
+                    <img src={img} />
+                </div>))}
             {/* <!--details--> */}
           </Carousel>
           <div className="details">

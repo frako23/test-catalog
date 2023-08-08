@@ -144,3 +144,7 @@
   .details-table {
     color: white;
   }
+
+  .details-table td {
+    padding-inline: 2rem;
+  }

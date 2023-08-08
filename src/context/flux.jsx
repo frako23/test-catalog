@@ -5,6 +5,7 @@ const getState = ({ getStore, getActions, setStore }) => {
       carModels: [
         {
           brakeModel: 8284,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/8284/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/8284/2.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/8284/3.jpg"],
           type: "Semimetálica",
           brand: "Volkswagen",
           model: "Gol",
@@ -20,6 +21,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 8284,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/8284/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/8284/2.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/8284/3.jpg"],
           type: "Semimetálica",
           brand: "Chevrolet",
           model: "Corsa",
@@ -36,6 +38,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 4465,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/04465/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/04465/2.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/04465/3.jpg"],
           type: "Cerámica",
           brand: "Toyota",
           model: "Hilux 4x4",
@@ -47,6 +50,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7639,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7639/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7639/2.jpg"],
           type: "Cerámica",
           brand: "Toyota",
           model: "Machito",
@@ -63,6 +67,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 8335,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/8335/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/8335/2.jpg"],
           type: "Cerámica",
           brand: "Toyota",
           model: "Corolla",
@@ -79,6 +84,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7877,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/2.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/3.jpg"],
           type: "Cerámica",
           brand: "Toyota",
           model: "4Runner",
@@ -95,6 +101,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7877,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/2.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/3.jpg"],
           type: "Cerámica",
           brand: "Toyota",
           model: "FJ Cruisser",
@@ -111,6 +118,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7877,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/2.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/3.jpg"],
           type: "Cerámica",
           brand: "Toyota",
           model: "Tacoma",
@@ -126,6 +134,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7877,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/2.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/3.jpg"],
           type: "Cerámica",
           brand: "Toyota",
           model: "Tundra",
@@ -141,6 +150,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7877,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/2.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/3.jpg"],
           type: "Cerámica",
           brand: "Toyota",
           model: "Fortuner",
@@ -157,6 +167,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7877,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/2.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/3.jpg"],
           type: "Cerámica",
           brand: "Toyota",
           model: "Burbuja",
@@ -172,6 +183,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7877,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/2.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/3.jpg"],
           type: "Cerámica",
           brand: "Toyota",
           model: "Autana",
@@ -187,6 +199,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7877,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/2.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/3.jpg"],
           type: "Cerámica",
           brand: "Toyota",
           model: "Hilux  ",
@@ -204,6 +217,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7877,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/2.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/3.jpg"],
           type: "Cerámica",
           brand: "Toyota",
           model: "Hilux  ",
@@ -221,6 +235,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7877,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/2.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7877/3.jpg"],
           type: "Cerámica",
           brand: "Mitsubishi",
           model: "Montero",
@@ -236,6 +251,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7261,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7261/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7261/2.jpg"],
           type: "Semimetálica",
           brand: "Renault",
           model: "Twingo",
@@ -252,6 +268,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7261,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7261/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7261/2.jpg"],
           type: "Semimetálica",
           brand: "Renault",
           model: "Symbol",
@@ -268,6 +285,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7261,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7261/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7261/2.jpg"],
           type: "Semimetálica",
           brand: "Renault",
           model: "Clio",
@@ -284,6 +302,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7261,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7261/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7261/2.jpg"],
           type: "Semimetálica",
           brand: "Renault",
           model: "Megane",
@@ -300,6 +319,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7417,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7417/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7417/2.jpg"],
           type: "Semimetálica",
           brand: "Mitsubishi",
           model: "Lancer",
@@ -315,6 +335,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7939,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7939/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7939/2.jpg"],
           type: "Semimetálica",
           brand: "Chevrolet",
           model: "Optra",
@@ -330,6 +351,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7704,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7704/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7704/2.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7704/3.jpg"],
           type: "Semimetálica",
           brand: "Toyota",
           model: "Yaris",
@@ -345,6 +367,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 8266,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/8266/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/8266/2.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/8266/3.jpg"],
           type: "Semimetálica",
           brand: "Kia",
           model: "Rio",
@@ -360,6 +383,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 8385,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/8385/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/8385/2.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/8385/3.jpg"],
           type: "Semimetálica",
           brand: "Chevrolet",
           model: "Aveo",
@@ -374,6 +398,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7298,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7298/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7298/2.jpg"],
           type: "Cerámica",
           brand: "Toyota",
           model: "Burbuja",
@@ -388,6 +413,7 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
         {
           brakeModel: 7298,
+          brakeImgs: ["https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7298/1.jpg", "https://raw.githubusercontent.com/frako23/test-catalog/main/src/assets/img/Pastillas%20de%20freno/7298/2.jpg"],
           type: "Cerámica",
           brand: "Toyota",
           model: "4 Runner",
@@ -430,4 +456,4 @@ const getState = ({ getStore, getActions, setStore }) => {
   };
 };
 
-export default getState;
+export default getState;  
