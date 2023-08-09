@@ -1,5 +1,5 @@
-import { useParams } from "react-router-dom";
-import { useContext } from "react";
+import { useParams, Link } from "react-router-dom";
+import { useContext, useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { Context } from "../context/AppContext";
@@ -10,8 +10,15 @@ export default function Single() {
   let { theId } = useParams();
   const { store, actions } = useContext(Context);
   console.log(theId);
+  const [added, setAdded] = useState(false)
+  const handleAddToCart = (dato) => {
+    console.log(dato);
+    actions.addToCart(dato)
+    console.log(store.cart);
+    setAdded(true)
+  }
   return (
-    <div className="background">
+    <div className="background-single">
       {/* <!--slider-------------------> */}
       {/* <ul id="autoWidth" className="cs-hidden"> */}
       {/* <!--1------------------------------> */}
@@ -23,6 +30,7 @@ export default function Single() {
           <p className="marvel">
             {store.carModels[theId].brand + " " + store.carModels[theId].model}{" "}
           </p>
+          <p className="card-price">${store.carModels[theId].price}</p>
           {/* <!--model--> */}
           <Carousel
             howArrows={true}
@@ -61,6 +69,25 @@ export default function Single() {
                 
               </tbody>
             </table>
+            <div className="single-buttons">
+            <button 
+                  className={added ? "done" : "addtocart" }
+                  onClick={
+                    () => handleAddToCart(store.carModels[theId])
+                    }
+                    >
+                  <div className={added ? "posttext" : "pretext" }>
+                    <i className={added ? "fas fa-check" : "fas fa-cart-plus" }></i>{added ? "Agregado" : "Agregar al carrito" } 
+                  </div>
+                </button>
+                <Link to="/">
+                <button className="detail">
+                  <div className="pretext">
+                    Regresar
+                  </div>
+                </button>
+                </Link>
+                </div>
             {/* <!--character-details--> */}
             {/* <p>
                 Bruce Bayne invite deadpool to kill the enemy how make distrub

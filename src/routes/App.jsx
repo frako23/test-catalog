@@ -39,7 +39,7 @@ function App() {
           {store.carModels.map((dato, index) => (
             <div className="box" key={index}>
               <p className="marvel">{dato.brand + " " + dato.model} </p>
-              <span className="badge rounded-pill bg-primary">${dato.price}</span>
+              <p className="card-price">${dato.price}</p>
               {/* <!--model--> */}
               <img src={dato.img} className="model" />
               {/* <!--details--> */}

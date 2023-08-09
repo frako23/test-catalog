@@ -4,37 +4,25 @@ import { Link } from "react-router-dom";
 
 export const Cart = () => {
   const { store, actions } = useContext(Context);
-  let codigo = "";
-  let monto = 0;
-console.log(store.cart);
+  
+  let monto = store.cart.reduce(
+    (acc, currentValue) => acc + currentValue.price,
+    0
+  );
+  console.log(store.cart);
   const handleRemoveProduct = (model) => actions.removeFromCart(model);
-  // const whatsappUrl = () => {
 
-  //     let urlResult = urlBase
 
-  //     console.log("me ejecuto");
+    let codigo = []
 
-  //     setLinkHref("https:www.google.com")
+    for (let index = 0; index < store.cart.length; index++) {
+      codigo.push(store.cart[index].brakeModel);
+      console.log(codigo);
+    }
+    const urlBase = `https://api.whatsapp.com/send?phone=+584242526757&text=Hola!%20estoy%20interesad@%20en%20los%20siguientes%20productos%0A%0A*Codigos*:%20${codigo.toString()}%0A%0A*Total*:%20$${monto}`;
+  
+    console.log(urlBase);
 
-  //     return "#"
-
-  //     for (let index = 0; index < store.cart.length; index++) {
-
-  //         if (index == store.removeProductFromCart.length - 1) {
-  //             monto = monto + store.cart[index].price
-  //             codigo = codigo.concat(store.cart[index].breakModel)
-  //             console.log("entra aqui");
-  //         }
-
-  //         else {
-  //             codigo = codigo.concat(`${store.cart[index].breakModel},%20`)
-  //         }
-
-  // }
-
-  const urlBase = `https://api.whatsapp.com/send?phone=+584242526757&text=Hola!%20estoy%20interesad@%20en%20los%20siguientes%20productos%0A%0A*Codigos*:%20${codigo}%0A%0A*Total*:%20$${monto}`;
-
-  console.log(urlBase);
 
   return (
     <div className="mt-5 pt-4 cart">
@@ -50,8 +38,18 @@ console.log(store.cart);
         </thead>
         <tfoot>
           <tr>
-            <td colSpan={2}><span className="fw-bold">Total</span></td>
-            <td><span className="fw-bold">${store.cart.reduce((acc, currentValue) =>  acc + currentValue.price,0)}</span></td>
+            <td colSpan={2}>
+              <span className="fw-bold">Total</span>
+            </td>
+            <td>
+              <span className="fw-bold">
+                $
+                {store.cart.reduce(
+                  (acc, currentValue) => acc + currentValue.price,
+                  0
+                )}
+              </span>
+            </td>
           </tr>
         </tfoot>
         <tbody>
@@ -79,7 +77,8 @@ console.log(store.cart);
           })}
         </tbody>
       </table>
-      <div className="btns">
+      <div 
+        className="btns">
         <a className="btn btn-success mb-5 rounded-pill" href={urlBase}>
           {" "}
           Completa tu pedido por{" "}
